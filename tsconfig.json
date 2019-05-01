@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "types": ["node"],
+        "lib": ["dom", "es2016"],
+        "sourceMap": true,
+        "outDir": "src/ts-out",
+        "resolveJsonModule": true,
+        "target": "es6"
+    },
+    "include": [
+        "src/ts-in/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
